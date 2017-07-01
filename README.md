@@ -1,5 +1,10 @@
 # DropboxContentHasher
 
+[![Build Status](https://semaphoreci.com/api/v1/igormalinovskiy/dropbox_content_hasher/branches/master/shields_badge.svg)](https://semaphoreci.com/igormalinovskiy/dropbox_content_hasher)
+[![Code Climate](https://codeclimate.com/github/psyipm/dropbox_content_hasher/badges/gpa.svg)](https://codeclimate.com/github/psyipm/dropbox_content_hasher)
+[![Gem Version](https://badge.fury.io/rb/dropbox_content_hasher.svg)](https://badge.fury.io/rb/dropbox_content_hasher)
+
+
 In order to allow Dropbox apps to verify uploaded contents or compare remote files to local files without downloading them, the FileMetadata object contains a hash of the file contents in the [content_hash](https://www.dropbox.com/developers/reference/content-hash) property.
 
 This gem computes hash value of the file using dropbox algorithm.
